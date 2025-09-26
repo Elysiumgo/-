@@ -1,4 +1,4 @@
-/*2452545 ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+/*2452545 ¼ÆËã»ú ÁõÇçÓï*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include<math.h>
@@ -7,13 +7,13 @@ int main()
 {
     const double pi=3.14159;
     double r, h;
-    printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¾¶ï¿½Í¸ß¶ï¿½\n");
+    printf("ÇëÊäÈë°ë¾¶ºÍ¸ß¶È\n");
     scanf("%lf %lf", &r, &h);
-    printf("%-10s : %.2f\n", "Ô²ï¿½Ü³ï¿½",2*pi*r);
-    printf("%-10s : %.2f\n", "Ô²ï¿½ï¿½ï¿½", pi * r * r);
-    printf("%-10s : %.2f\n", "Ô²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", 4 * pi * r * r);
-    printf("%-10s : %.2f\n", "Ô²ï¿½ï¿½ï¿½ï¿½ï¿½",  4 * pi * r * r * r/3);
-    printf("%-10s : %.2f\n", "Ô²ï¿½ï¿½ï¿½ï¿½ï¿½", 2 * pi * r * r * h);
+    printf("%-10s : %.2f\n", "Ô²ÖÜ³¤",2*pi*r);
+    printf("%-10s : %.2f\n", "Ô²Ãæ»ý", pi * r * r);
+    printf("%-10s : %.2f\n", "Ô²Çò±íÃæ»ý", 4 * pi * r * r);
+    printf("%-10s : %.2f\n", "Ô²ÇòÌå»ý",  4 * pi * r * r * r/3);
+    printf("%-10s : %.2f\n", "Ô²ÖùÌå»ý", 2 * pi * r * r * h);
 
     return 0;
 }
